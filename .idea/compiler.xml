@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="chatbot-api-application" />
+        <module name="chatbot-api-infrastructure" />
+        <module name="chatbot-api-domain" />
+        <module name="chatbot-api-inferfaces" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="chatAi" target="1.5" />
+      <module name="chatbot-api-application" target="17" />
+      <module name="chatbot-api-domain" target="8" />
+      <module name="chatbot-api-inferfaces" target="17" />
+      <module name="chatbot-api-infrastructure" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
